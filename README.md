@@ -26,24 +26,24 @@ Currently Rental bikes are introduced in many urban cities for the enhancement o
 * ### Functional Day - NoFunc(Non Functional Hours), Fun(Functional hours)
 
 # Conclusions:
-* #### As we have calculated MAE,MSE,RMSE and R2 score for each model. Based on r2 score will decide our model performance.
+* #### As we have calculated MAE, MSE, RMSE, R2 score and Adjusted R2 score for each model. Based on Adjusted R2 score will decide our model performance.
 
 * ## Linear,Lasso,Ridge and ElasticNet.
-* #### 1)linear,Lasso,Ridge  and Elastic  regression models have almost similar R2 scores(61%) on test data.(Even after using GridserachCV we have got similar results as of base models).
+* #### 1)linear,Lasso,Ridge  and Elastic  regression models have almost similar Adjusted R2 scores(61%) on test data.(Even after using GridserachCV we have got similar results as of base models).
 
 ## Decision Tree Regressor:
-* #### After hyperparameter tuning we got r2 score as 84% (approx.) on test data which is quite good for us.
+* #### After hyperparameter tuning we got Adjusted R2 score as 84% (approx.) on test data which is quite good for us.
 
 ## Random Forest:
 
-> * #### On Random Forest regressor model, without hyperparameter tuning we got r2 score as 90% (approx.) on test data. Thus our model memorised the data.So it was a overfitted model, as per our assumption
-* #### After hyperparameter tuning we got r2 score as 87%(approx.) on test data which is  very good for us.
+> * #### On Random Forest regressor model, without hyperparameter tuning we got Adjusted R2 score as 90% (approx.) on test data. Thus our model memorised the data.So it was a overfitted model, as per our assumption
+* #### After hyperparameter tuning we got Adjusted R2 score as 87%(approx.) on test data which is  very good for us.
 
 ## Gradient Boosting Regression(Gradient Boosting Machine):
 
-* #### On Gradient Boosting regressor model, without hyperparameter tuning we got r2 score as 86% (approx.) on test data.Our model performed well without hyperparameter tuning.
-* #### After hyperparameter tuning we got r2 score as 91% (approx.) on test data,thus we improved the model performance by hyperparameter tuning.
+* #### On Gradient Boosting regressor model, without hyperparameter tuning we got Adjusted R2 score as 86% (approx.) on test data.Our model performed well without hyperparameter tuning.
+* #### After hyperparameter tuning we got Adjusted R2 score as 91% (approx.) on test data,thus we improved the model performance by hyperparameter tuning.
 
- **Thus Gradient Boosting Regression(GridSearchCV) and Random forest(gridSearchCv) gives good r2 scores. We can deploy this models.**
+ **Thus Gradient Boosting Regression(GridSearchCV) and Random forest(gridSearchCv) gives good Adjusted R2 scores. We can deploy this models.**
  
 
